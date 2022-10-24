@@ -355,10 +355,6 @@ ul {
   display: flex;
 }
 .right-box {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
   padding-left: 70px;
 }
 .join-us {

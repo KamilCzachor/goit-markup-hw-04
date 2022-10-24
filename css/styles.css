@@ -372,7 +372,7 @@ ul {
 .socialmedia-footer a {
   height: 44px;
   width: 44px;
-  display: block;
+  display: inline-flex;
   text-align: center;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
@@ -384,7 +384,7 @@ ul {
 .socialmedia-footer a:focus {
   height: 44px;
   width: 44px;
-  display: block;
+  display: inline-flex;
   text-align: center;
   background: #2196f3;
   border-radius: 50%;
@@ -424,7 +424,7 @@ div .twitter,
 .socialmedia-team a {
   height: 44px;
   width: 44px;
-  display: block;
+  display: inline-flex;
   text-align: center;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
@@ -435,7 +435,7 @@ div .twitter,
 .socialmedia-team a:focus {
   height: 44px;
   width: 44px;
-  display: block;
+  display: inline-flex;
   text-align: center;
   background: #2196f3;
   border-radius: 50%;
@@ -454,7 +454,7 @@ div .twitter,
 .card-clients a {
   height: 92px;
   width: 170px;
-  display: block;
+  display: inline-flex;
   text-align: center;
   background: rgba(255, 255, 255, 0.1);
   border: solid #afb1b8 1px;
@@ -464,7 +464,7 @@ div .twitter,
 }
 .card-clients a:hover,
 .card-clients a:focus {
-  display: block;
+  display: inline-flex;
   text-align: center;
   border: solid #2196f3 1px;
   padding: 16px 32px;

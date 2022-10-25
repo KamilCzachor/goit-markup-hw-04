@@ -134,12 +134,16 @@ ul {
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
+  margin: 0 auto;
+  box-sizing: border-box;
   background-image: linear-gradient(
       rgba(47, 48, 54, 0.4),
       rgba(47, 48, 54, 0.4)
     ),
     url(../images/teamimage.jpg);
   background-size: cover;
+  max-width: 1600px;
+  background-position: center;
 }
 
 .second-title {
@@ -247,10 +251,14 @@ ul {
 .contact {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .contact li {
   display: inline-block;
   padding-left: 30px;
+}
+.contact a svg {
+  display: inline-flex;
 }
 .container {
   box-sizing: border-box;
@@ -339,18 +347,6 @@ ul {
   display: block;
 }
 
-.phone {
-  display: inline;
-  width: 10px;
-  height: 16px;
-}
-
-.email {
-  display: inline;
-  width: 16px;
-  height: 12px;
-}
-
 .footer-box {
   display: flex;
 }
@@ -366,13 +362,12 @@ ul {
   fill: #ffffff;
 }
 .socialmedia-footer {
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
 }
 
 .socialmedia-footer a {
-  height: 44px;
-  width: 44px;
-  display: inline-flex;
+  display: flex;
   text-align: center;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
@@ -384,7 +379,7 @@ ul {
 .socialmedia-footer a:focus {
   height: 44px;
   width: 44px;
-  display: inline-flex;
+  display: flex;
   text-align: center;
   background: #2196f3;
   border-radius: 50%;
@@ -424,7 +419,7 @@ div .twitter,
 .socialmedia-team a {
   height: 44px;
   width: 44px;
-  display: inline-flex;
+  display: flex;
   text-align: center;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
@@ -435,7 +430,7 @@ div .twitter,
 .socialmedia-team a:focus {
   height: 44px;
   width: 44px;
-  display: inline-flex;
+  display: flex;
   text-align: center;
   background: #2196f3;
   border-radius: 50%;
@@ -454,7 +449,7 @@ div .twitter,
 .card-clients a {
   height: 92px;
   width: 170px;
-  display: inline-flex;
+  display: flex;
   text-align: center;
   background: rgba(255, 255, 255, 0.1);
   border: solid #afb1b8 1px;
@@ -464,7 +459,7 @@ div .twitter,
 }
 .card-clients a:hover,
 .card-clients a:focus {
-  display: inline-flex;
+  display: flex;
   text-align: center;
   border: solid #2196f3 1px;
   padding: 16px 32px;
@@ -478,4 +473,9 @@ div .twitter,
   background-color: #f5f4fa;
   padding: 25px 100px;
   margin-bottom: 30px;
+}
+.header-contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
